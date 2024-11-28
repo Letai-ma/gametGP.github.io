@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(164, 168, 165);
+    color: rgb(255, 255, 255);
+    background-image: url(https://images.techinsider.ru/upload/img_cache/df5/df50dd862112523e7e77f1f58d3d6c45_ce_1920x1080x0x0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main_link {
+    text-decoration: none;
+}
+.main_link:hover {
+    color: rgb(165, 244, 247);
+    text-decoration: underline;
+    cursor: pointer;
+}
+.main_link:active {
+    text-decoration: line-through;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: rgb(80, 80, 77);
+    color: rgb(255, 255, 255);
+    line-height: 80px;
+    margin-bottom: 50px;
+}
+a {
+    color: #a7e9f1;
+}
+footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(80, 80, 77);
+    margin-top: 50px;
+}
